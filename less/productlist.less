@@ -1,0 +1,113 @@
+@import 'common';
+
+.container {
+  background-color: #fff;  
+}
+
+.mmb_productlist {
+  
+
+  .proItem {
+    padding: 14rem/@base 8rem/@base;
+    height: 129rem/@base;
+    border-bottom: 1rem/@base solid #e7e7e7;
+
+    .img {
+      width: 100rem/@base;
+      height: 100rem/@base;
+      float: left;
+      margin-right: 10rem/@base;
+
+      img {
+        width: 100rem/@base;
+        height: 100rem/@base;
+      }
+    }
+
+    .desc {
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      .top {
+        font-size: 15rem/@base;
+        color: #333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+      }
+
+      .bottom {
+        color: #a1a1a1;
+        font-size: 12rem/@base;
+        width: 100%;
+        position: absolute;
+        bottom: 5rem/@base;
+        left: 0;
+
+        .price {
+          font-size: 18rem/@base;
+          color: #ea3900;
+        }
+        span {
+          margin-right: 10rem/@base;
+        }
+      }
+
+    }
+
+
+
+  }
+
+  .paging {
+    height: 38rem/@base;
+    margin-top: 10rem/@base;
+    >div {
+      width: 33.3%;
+      text-align: center;
+      line-height: 33rem/@base;
+      font-size: 14rem/@base;
+
+    }
+    button {
+      width: 82rem/@base;
+      height: 33rem/@base;
+      outline-style: none;
+    }
+    .currPage {
+      width: 77rem/@base;
+      height: 36rem/@base;
+      margin: 0 auto;
+      line-height: 36rem/@base;
+      border: 1rem/@base solid #ccc;
+      position: relative;
+
+    }
+    .morePage {
+      width: 77rem/@base;
+      position: absolute;
+      top: -140rem/@base;
+      left: -1rem/@base;
+      border: 1rem/@base solid #ccc;
+      background-color: #fff;
+      display: none;
+
+    }
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
